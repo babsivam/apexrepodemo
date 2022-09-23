@@ -1,0 +1,15 @@
+public class DbPractise 
+{
+    
+     public static void amountGreater(integer Amount)
+    {
+        list<Opportunity>OppAmount =[
+                                     SELECT 
+                                     ID,Name 
+                                     FROM Opportunity where Amount >:Amount];
+        for(Opportunity oppA : OppAmount)
+        {
+            system.debug(oppA);
+        }
+        
+    }
