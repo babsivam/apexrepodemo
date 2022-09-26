@@ -11,6 +11,7 @@ public class DbPractise
         {
             system.debug(oppA);
             system.debug('output::'oppA);
+            system.debug('push check');
         }
         
     }
