@@ -10,6 +10,7 @@ public class DbPractise
         for(Opportunity oppA : OppAmount)
         {
             system.debug(oppA);
+            system.debug('output::'oppA);
         }
         
     }
